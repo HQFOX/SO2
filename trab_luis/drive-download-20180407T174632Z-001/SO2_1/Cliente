@@ -1,0 +1,4 @@
+#!/bin/bash
+#Server
+
+java -classpath clube_desportivo/build/classes clube_desportivo.ClubeClient localhost 9000

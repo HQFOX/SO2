@@ -1,0 +1,2 @@
+java -classpath build/classes so2.EchoClient alunos.di.uevora.pt 9000 "mensagem"
+

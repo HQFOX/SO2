@@ -1,0 +1,130 @@
+body{
+    background-color: lightcyan;
+    font-family: Arial;
+}
+
+h1{
+    font-family: Arial;
+    color: darkblue;
+    text-align: left;
+}
+
+.header{
+    width: 1200px;
+    height: 90px;
+    background: url(../images/header.gif) no-repeat top left;
+    margin: 0px;
+    padding: 0px;
+    border-top: 0px;
+    border-bottom: 5px #0073e6 solid;
+}
+
+button{
+    background-color: #008CBA; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 15px;
+    width: 280px;
+    border-radius: 8px;
+    margin: 2px 8px;    
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+}
+
+.button:hover {
+    background-color: #66ff99; /* Green */
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);    
+}
+
+back{
+    
+}
+
+input[type=select]{
+    width: 100px;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 8px;
+    margin: 20px 1px;
+}
+
+input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px #0073e6 solid;
+    border-radius: 4px;
+    background-color: #33ffad; /* Green */
+    color: black;
+    font-family: Arial;
+}
+
+label{
+    font-family: Arial;
+}
+
+tables{
+    
+}
+
+.tables h1{
+    font-family: Arial;
+    color: darkblue;
+    text-align: left;
+}
+
+.tables table {
+    border-collapse: collapse;
+    width: 30%;
+}
+
+.tables td {
+    font-family: Arial;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid darkblue;
+}
+
+.tables th {
+    font-family: Arial;
+    background-color: #008CBA;
+    color: white;
+    border: 1px solid darkblue;
+}
+
+
+.tables tr:nth-child(even){background-color: #33ffad}
+
+
+#map {
+        height: 400px;
+        width: 400px;
+        display: inline-block;
+}
+
+.mySlides {display:none;}
